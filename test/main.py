@@ -16,3 +16,12 @@ def factorial(n):
 
 # Test the function
 print(factorial(5))  # Output: 120
+
+def multiply_numbers(a, b):
+    return a * b
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+result = multiply_numbers(num1, num2)
+print("The product is:", result)
