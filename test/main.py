@@ -18,3 +18,13 @@ def factorial(n):
 print(factorial(5))  # Output: 120  
 
 print("Hello, World!")
+
+# Get the two numbers from the user
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+# Add the two numbers
+result = num1 + num2
+
+# Print the result
+print("The sum is:", result)
